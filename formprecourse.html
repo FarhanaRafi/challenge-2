@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <h1>Registration Form Precourse</h1>
+    <form>
+        <fieldset style="width: 300px;">
+            <legend><b>Please Fill the Form</b></legend>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" placeholder="Name" id='name' required style='width: 250px;'>
+            </div>
+            <div>
+                <label for="surname">Surname</label>
+                <input type="text" placeholder="Surname" id='surname' required style='width: 250px;'>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" required style='width: 250px;'>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="password" required style='width: 250px;'>
+            </div>
+            <div>
+                <label for="date">Date Of Birth</label>
+                <input type="date" placeholder="Date of Birth" id='date' required style="width: 250px;">
+            </div>
+            <div>
+                <label for="number">Phone Number</label>
+                <input type="number" id="number" placeholder="telephone" required style='width: 250px;'>
+            </div>
+        </fieldset>
+        <fieldset style="width: 300px;">
+            <legend><b>Music Preferences</b></legend>
+            <div>
+                <label for="rock">Rock</label>
+                <input type="checkbox" id="rock" name="rock">
+            </div>
+            <div>
+                <label for="metal">Metal</label>
+                <input type="checkbox" id="metal" name="metal">
+            </div>
+            <div>
+                <label for="hiphop">Hip-Hop</label>
+                <input type="checkbox" id="hiphop" name="hiphop">
+            </div>
+        </fieldset>
+        <fieldset style="width: 300px;">
+            <div>
+                <legend><b>Terms of Service Agreement</b></legend>
+                <label for="yes">Agree</label>
+                <input type="radio" id="yes" name="yes">
+            </div>
+            <div>
+                <label for="no">Disagree</label>
+                <input type="radio" id="no" name="no">
+            </div>
+        </fieldset>
+        <div>
+            <button>Send Registration</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
